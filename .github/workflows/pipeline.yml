@@ -17,7 +17,11 @@ jobs:
         run: npm install  
       - name: lint
         run: npm run eslint
+<<<<<<< HEAD
       - name: buid
+=======
+      - name: build
+>>>>>>> 17a06ba1d4cbbc6ba0e7ab7648dda52716c7076e
         run: npm run build
       - name: test
         run: npm run test
