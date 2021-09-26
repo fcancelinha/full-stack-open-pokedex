@@ -24,4 +24,8 @@ jobs:
         with:
           command: npm run test:e2e
           start: npm run start-prod
+<<<<<<< HEAD
           wait-on: http://localhost:8080
+=======
+          wait-on: http://localhost:5000
+>>>>>>> 57e37ba49b5c17d4da97b50d6d778b605b681330
