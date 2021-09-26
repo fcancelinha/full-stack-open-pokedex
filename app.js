@@ -15,6 +15,6 @@ app.get('/healthcheck', (req, res) => {
   res.send('OK')
 })
 
-app.get('version', (req, res) => {
+app.get('/version', (req, res) => {
   res.send(packageJson.version)
 })
