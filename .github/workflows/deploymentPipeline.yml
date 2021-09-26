@@ -36,3 +36,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "mighty-ridge-25951"
           heroku_email: ${{secrets.PRIVATE_EMAIL}}
+          healthcheck: "https://mighty-ridge-25951.herokuapp.com/healthcheck"
+          checkstring: "[OK]"
+          delay: 5
+          rollbackonhealthcheckfailed: true
